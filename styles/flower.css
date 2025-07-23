@@ -1,0 +1,36 @@
+.display-felx{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #252432;
+}
+.navber{
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+.text-color{
+    color: #E95A08;
+}
+.container{
+    width: 1140px;
+    height: 461px;
+    margin: 0 auto;
+    padding: 160px 240px;
+}
+.banner{
+    display:flex ;
+    align-items: center;
+}
+.text-size{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text-decription{
+    color: #000000;
+}
