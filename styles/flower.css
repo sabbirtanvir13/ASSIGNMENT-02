@@ -12,7 +12,8 @@
 }
 .navber{
     justify-content: space-between;
-    padding: 30px 150px;
+  margin: 50px 10%;
+  display: flex;
 }
 .text-color{
     color: #E95A08;
@@ -33,4 +34,63 @@
 }
 .text-decription{
     color: #000000;
+    font-size: 22px;
+}
+.btn-primary{
+background-color: #E95A08;
+padding: 15px 90px;
+}
+.title-color{
+    color: #FFFFFF;
+    font-weight: 500;
+   
+}
+.font{
+    font-weight: bold;
+    font-size: 50px;
+}
+.title{
+ text-align: center;
+
+}
+
+.buy-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 323px;
+    max-width: 1140px;
+}
+.banner-container{
+    justify-content: space-between;
+  margin: 50px 10%;
+  display: flex;
+}
+.carding{
+   
+  margin: 50px 10%;
+  
+}
+.card{
+    padding: 30px;
+    margin: 0 22%;
+}
+.font-p{
+    font-size: 22px;
+    color: #000000;
+}
+
+
+
+
+
+/* / responsive small devaice */ 
+/* @media screen and (max-width:576px)  {
+    .navbar, .nav-links {
+       
+        flex-direction: column;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+
 }
