@@ -12,7 +12,7 @@
 }
 .navber{
     justify-content: space-between;
-  margin: 50px 10%;
+  margin: 50px 20%;
   display: flex;
 }
 .text-color{
@@ -57,32 +57,124 @@ padding: 15px 90px;
 .buy-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 323px;
-    max-width: 1140px;
 }
 .banner-container{
     justify-content: space-between;
-  margin: 50px 10%;
+  margin: 50px 20%;
   display: flex;
 }
 .carding{
    
-  margin: 50px 10%;
+  margin: 50px 20%;
   
 }
 .card{
-    padding: 30px;
-    margin: 0 22%;
+    padding: 22px;
 }
 .font-p{
     font-size: 22px;
     color: #000000;
 }
 
+.trusted-badge{
+    height: 286px;
+    width: 286px;
+}
+.flower-section{
+    justify-content: space-between;
+  margin: 100px 20%;
+  display: flex;
+}
+.main-badge{
+    height: 286px;
+  width: 286px;
+  position: absolute;
+  margin: -7% 20%;
+}
+.flower-store{
+    width: 540px;
+    height: 597px;
+}
 
 
+.bloom{background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    width: 360px;
+    height: 201px;
+    font-size: 22px;
+    border-radius: 14px;
+    align-content: center;
 
+}
+.Ana{
+background-image:url(../B12A02-Responsive-Flowers/assets/deal-ana.png) ;
+width: 360px;
+    height: 201px;
+    font-size: 22px;
+    border-radius: 14px;
+    align-content: center;
+}
+.Zabo{
+background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+width: 753px;
+height: 423.13px;
+font-size: 2rem;
+border-radius: 22px;
+align-content: center;
+}
+.img-color{
+    color: #FFFFFF;
+    text-align: center;
+       
 
+}
+.colorful-Bunch{
+   background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+  width: 100%;
+  height: 533px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+.section-text-img{
+    display: flex;
+  justify-content: space-around;
+  margin: 50px 20%;
+}
+.Plants{
+    font-size: 22px;
+}
+.Plants-title{
+    font-size: 50px;
+}
+.Latest-deals{
+    text-align: center;
+}
+.last-footer{
+    display: flex;
+  justify-content: space-around;
+  margin: 50px 20%;
+}
+.Join{
+    font-weight: bold;
+    font-size: 50px;
+}
+.btn-section{
+    padding: 10px 200px;
+    width: 192px;
+  height: 31px;
+}
+.btn{
+    width: 192px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+}
+/* .section-text-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
 /* / responsive small devaice */ 
 /* @media screen and (max-width:576px)  {
     .navbar, .nav-links {
